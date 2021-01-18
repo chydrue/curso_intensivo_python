@@ -32,5 +32,23 @@ gatos = ['max', 'eusébio', 'morpheu']
 for gato in gatos:
     k = gatos.index(gato)+1
     print('O ' + gato.title() + ' foi o {K}º animal de estimação a ser adotado!'.format(K=k))
-print("\nAdotar animais é muito bom!")
+print("\nAdotar animais é muito bom!\n")
+
+###########################################################################################
+#Usando a função range() e list() para criar e manipular listas de números
+###########################################################################################
+
+números = list(range(1,31))
+print(números)
+
+números_pares = list(range(2,31,2))
+print(números_pares)
+
+números_impares = list(range(1,32,2))
+print(números_impares)
+
+quadrados = []
+for valor in range(1,21):
+    quadrados.append(valor**2)
+print(quadrados)
 
