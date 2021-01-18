@@ -20,3 +20,6 @@ print('\n>>>Exercício 4.3<<<')
 ex43 = [valor for valor in list(range(1,21))]
 print(ex43)
 
+print('\n>>>Exercício 4.4<<<')
+ex44 = [valor2 for valor2 in list(range(1,100))]
+print(ex44)
