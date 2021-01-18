@@ -23,3 +23,12 @@ print(ex43)
 print('\n>>>Exercício 4.4<<<')
 ex44 = [valor2 for valor2 in list(range(1,100))]
 print(ex44)
+
+print('\n>>>Exercício 4.5<<<')
+ex45 = [valor3 for valor3 in list(range(1,1000001))]
+menor = min(ex45)
+maior = max(ex45)
+soma2 = sum(ex45)
+print("Menor valor: " + str(menor) + "\nMaior valor: " + str(maior) + "\nSoma: " + str(soma2))
+
+
