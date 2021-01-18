@@ -41,3 +41,6 @@ for valor5 in list(range(3,31,3)):
     ex47.append(valor5)
 print(ex47)
 
+print('\n>>>Exercício 4.8<<<')
+ex48 = [valor6**3 for valor6 in list(range(1,11))]
+print(ex48)
