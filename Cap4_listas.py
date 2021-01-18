@@ -15,4 +15,13 @@ for magician2 in magicians2:
     print(magician2.title() + ", essa macumba foi muito boa!!")
     print("Mal posso esperar para ver seu próximo truque, " + magician2.title() + ".\n")
 
-print("Obrigado a todos, está sendo uma aventura incrível! Amor é a Lei, Amor sob Vontade!")
+print("Obrigado a todos, está sendo uma aventura incrível! Amor é a Lei, Amor sob Vontade!\n")
+
+###########################################################################################
+#Exercícios (4.1 e 4.2)
+###########################################################################################
+print('\n>>>Exercício 4.1<<<')
+pizzas = ['fragobacon', 'cheddar', 'calabresa']
+for pizza in pizzas:
+    print('A pizza de ' + pizza + 'está em promoção hoje!')
+print('Vou comprar uma de cada para aproveitar!!!')
