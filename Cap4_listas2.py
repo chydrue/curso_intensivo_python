@@ -31,4 +31,6 @@ maior = max(ex45)
 soma2 = sum(ex45)
 print("Menor valor: " + str(menor) + "\nMaior valor: " + str(maior) + "\nSoma: " + str(soma2))
 
-
+print('\n>>>Exercício 4.6<<<')
+ex46 = [valor4 for valor4 in list(range(1,21,2))]
+print(ex46)
