@@ -13,7 +13,7 @@ quadrados = [valor**2 for valor in range(1,11)]
 print('\nQuadrados: ' + str(quadrados))
 
 ###########################################################################################
-#Exercícios 4.3 até 4.9
+#Exercícios 4.3 até 4.8
 ###########################################################################################
 
 print('\n>>>Exercício 4.3<<<')
@@ -44,3 +44,5 @@ print(ex47)
 print('\n>>>Exercício 4.8<<<')
 ex48 = [valor6**3 for valor6 in list(range(1,11))]
 print(ex48)
+
+
