@@ -34,3 +34,10 @@ print("Menor valor: " + str(menor) + "\nMaior valor: " + str(maior) + "\nSoma: "
 print('\n>>>Exercício 4.6<<<')
 ex46 = [valor4 for valor4 in list(range(1,21,2))]
 print(ex46)
+
+print("\n>>>Exercício 4.7<<<")
+ex47 = []
+for valor5 in list(range(3,31,3)):
+    ex47.append(valor5)
+print(ex47)
+
