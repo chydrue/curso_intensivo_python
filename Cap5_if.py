@@ -43,3 +43,15 @@ if 'nissan' in carros:
     print('Nissan é brabo.')
 else:
     print('Esqueceram do Nissan')
+
+#teste5
+
+num1=35
+num2=25
+if (num1 > num2) and (num1>0):
+    print("Número 1 é maior que zero e maior que número 2.")
+
+if (num1 < num2) or (num1>0):
+    print("Deu certo")
+
+
