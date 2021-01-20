@@ -32,3 +32,60 @@ for posição in range(1,10):
         incremento_x = 3
     alien_0['posição_x'] = alien_0['posição_x'] + incremento_x
     print('A nova posição da nave é: ' + str(alien_0['posição_x']))
+
+########################################################################################################################
+#Identando dicionários de diferentes objetos
+########################################################################################################################
+
+linguagem_favorita = \
+    {
+    'cleiton': 'python',
+    'rubens': 'python',
+    'júlio': 'java',
+    'fernanda': 'cpp',
+    'pedro': 'java'
+     }
+print(linguagem_favorita)
+
+########################################################################################################################
+#Exercícios 6.1 até 6.3
+########################################################################################################################
+
+print("\n>>>Exercício 6.1<<<")
+pessoa_n = \
+    {
+    'Nome': 'José',
+    'Sobrenome': 'Buendía',
+    'Idade': '283 anos',
+    'Cidade': 'Macondo'
+    }
+print(pessoa_n)
+
+print("\n>>>Exercício 6.2<<<")
+n_favoritos = \
+    {
+        'pessoa 1': '1657',
+        'pessoa 2': '9609',
+        'pessoa 3': '2323',
+        'pessoa 4': '9512',
+        'pessoa 5': '5918'
+    }
+print(n_favoritos)
+
+print("\n>>>Exercício 6.3<<<")
+dicionário1 = \
+    {
+        'palavra1': 'significado1',
+        'palavra2': 'significado2',
+        'palavra3': 'significado3'
+    }
+print(dicionário1)
+print('\n')
+########################################################################################################################
+#Utilizar o método .items() para criar laço que percorre o dicionário inteiro
+########################################################################################################################
+
+for i, t in n_favoritos.items():
+    print("Chave: " + i)
+    print('Valor: ' + t)
+
