@@ -81,11 +81,19 @@ dicionário1 = \
     }
 print(dicionário1)
 print('\n')
+
+
 ########################################################################################################################
-#Utilizar o método .items() para criar laço que percorre o dicionário inteiro
+#Utilizar o método .items() .keys() e .values() para criar laços que percorrem o dicionário inteiro.
 ########################################################################################################################
 
 for i, t in n_favoritos.items():
     print("Chave: " + i)
     print('Valor: ' + t)
 
+print("\nPrecisamos dos seguintes dados: ")
+for dados in sorted(pessoa_n.keys()):
+     print(dados)
+
+for pessoas in pessoa_n.values():
+    print(pessoas)
